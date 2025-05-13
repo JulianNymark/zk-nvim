@@ -1,6 +1,4 @@
-local nvim_path = vim.fn.expand("%:p:h")
-local lazypath = nvim_path .. "/lazy"
-vim.print("lazypath: " .. lazypath)
+local lazypath = "~/Repos/zk-nvim/lazy" -- anywhere you like
 local lazyclonepath = lazypath .. "/lazy.nvim"
 
 -- Bootstrap lazy.nvim
